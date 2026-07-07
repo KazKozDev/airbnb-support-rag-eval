@@ -2,8 +2,6 @@
   <img src="docs/banner.png" alt="airbnb-support-rag-eval" width="720">
 </p>
 
-# airbnb-support-rag-eval — Customer-support RAG with a measured evaluation loop
-
 **TL;DR** — A Q&A bot over the Airbnb Help Center that answers **only** from the
 documentation and **refuses when the answer isn't there**. The real work isn't the bot
 — it's the **measurement harness** around it. It let me prove, in numbers, that (a) a
