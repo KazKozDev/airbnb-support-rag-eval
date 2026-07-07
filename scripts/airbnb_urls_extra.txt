@@ -1,0 +1,13 @@
+# Extra articles to CLOSE the NEEDS-SOURCE gaps in the golden dataset.
+# Appended after the original base so existing chunk ids (c0000..c0158) stay stable.
+https://www.airbnb.com/help/article/3836    # Changing your payout method (q054)
+https://www.airbnb.com/help/article/1372    # When you can change your payment method (q054)
+https://www.airbnb.com/help/article/1516    # Change your payout currency (q056)
+https://www.airbnb.com/help/article/3133    # Getting paid as a new host / ways to get paid (q058)
+https://www.airbnb.com/help/article/240     # Deactivating or deleting your account (q070, q079)
+https://www.airbnb.com/help/article/362     # Change your email address (q076)
+https://www.airbnb.com/help/article/3060    # Protecting your privacy / host entry (q081)
+https://www.airbnb.com/help/article/427     # Booking a stay for friends and family (q093)
+https://www.airbnb.com/help/article/4134    # Make a reservation for someone else (q093)
+https://www.airbnb.com/help/article/687     # Confirm that guests can find your listing (q099)
+https://www.airbnb.com/help/article/39      # How search results work (q099)

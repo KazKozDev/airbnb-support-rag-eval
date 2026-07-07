@@ -1,0 +1,21 @@
+{
+  "tag": "v0",
+  "k": 5,
+  "mode": "vector",
+  "rerank": false,
+  "prompt": "naive",
+  "n": 115,
+  "recall_at_k": 0.448,
+  "mrr": 0.425,
+  "judge_scored": "97/97",
+  "faithfulness": 4.608,
+  "correctness": 4.072,
+  "hallucination_rate": 1.0,
+  "citation_validity": 0.07,
+  "total_generation_cost_usd": 0.0,
+  "provider": "ollama",
+  "generator": "deepseek-v4-flash",
+  "generator_host": "https://ollama.com",
+  "judge": "gpt-oss:120b",
+  "judge_host": "https://ollama.com"
+}

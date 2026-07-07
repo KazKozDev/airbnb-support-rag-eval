@@ -1,0 +1,21 @@
+# --- secrets ---
+.env
+*.key
+
+# --- generated data / index (rebuilt by ingest + index) ---
+data/chroma/
+data/requests.log.jsonl
+data/chunks.jsonl
+data/chunks.v*.jsonl
+data/selected_model.txt
+
+# --- python ---
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+*.egg-info/
+
+# --- os ---
+.DS_Store

@@ -1,0 +1,69 @@
+# Airbnb Help Center articles to download for the RAG knowledge base.
+# One URL per line; lines starting with # are ignored.
+# Grouped to match the 10 question sections in the golden dataset. ~45 articles.
+# These double as good crawl seeds if your scraper follows "related article" links.
+
+# --- 1. Cancellation ---
+https://www.airbnb.com/help/article/149     # Find the cancellation policy for any home
+https://www.airbnb.com/help/article/475     # Cancellation policies for your home (Flexible/Moderate/Strict)
+https://www.airbnb.com/help/article/169     # Cancel your home reservation as a guest
+https://www.airbnb.com/help/article/4118    # Guest cancellations and refunds
+https://www.airbnb.com/help/article/2868    # Rebooking and refund policy (when a host cancels)
+https://www.airbnb.com/help/article/1320    # Major Disruptive Events Policy (extenuating circumstances)
+https://www.airbnb.com/help/article/3761    # Accidentally booked / wrong dates
+# https://www.airbnb.com/help/article/324   # SKIPPED: server keeps aborting the connection; covered by 4118 + 2868
+
+# --- 2. Refunds & problems during the stay ---
+https://www.airbnb.com/help/article/248     # If you have a problem or issue during your reservation
+
+# --- 3. Damage & AirCover ---
+https://www.airbnb.com/help/article/3218    # AirCover for guests
+https://www.airbnb.com/help/article/3227    # AirCover for guests + travel/stay insurance
+https://www.airbnb.com/help/article/3733    # AirCover for Hosts
+https://www.airbnb.com/help/article/3142    # Getting protected through AirCover for Hosts
+https://www.airbnb.com/help/article/279     # Host damage protection
+https://www.airbnb.com/help/article/937     # Host liability insurance
+
+# --- 6. Payments, payouts & taxes ---
+https://www.airbnb.com/help/article/510     # Host taxes and payouts
+# https://www.airbnb.com/help/article/2909  # Payments Terms of Service — SKIPPED: ~298k chars of legal boilerplate, would swamp the index
+https://www.airbnb.com/help/article/1036    # How tax collection and remittance works
+https://www.airbnb.com/help/article/481     # Taxes for hosts
+https://www.airbnb.com/help/article/414     # US tax documents from Airbnb
+https://www.airbnb.com/help/article/3165    # FAQ about US taxes
+
+# --- 7. Reviews & ratings ---
+https://www.airbnb.com/help/article/13      # Reviews for homes
+https://www.airbnb.com/help/article/3582    # Remove or dispute a review
+https://www.airbnb.com/help/article/367     # Editing a review
+https://www.airbnb.com/help/article/32      # Responding to a review
+https://www.airbnb.com/help/article/2673    # Authentic and trustworthy reviews
+https://www.airbnb.com/help/article/546     # Airbnb's Content Policy
+https://www.airbnb.com/help/article/3287    # Your reviews from hosts
+
+# --- 8. Account & security ---
+https://www.airbnb.com/help/article/76      # Logging in if you forgot your password
+https://www.airbnb.com/help/article/359     # Unauthorized account access (hacked)
+https://www.airbnb.com/help/article/501     # Help secure your account
+https://www.airbnb.com/help/article/2842    # Two-factor authentication
+https://www.airbnb.com/help/article/1237    # Verifying your identity on Airbnb
+https://www.airbnb.com/help/article/971     # Check if an email/text/call is authentic
+https://www.airbnb.com/help/article/980     # Create a strong password
+
+# --- 9. House rules, safety & host-guest disputes ---
+https://www.airbnb.com/help/article/2894    # Ground rules for home guests
+https://www.airbnb.com/help/article/3053    # What's expected of guests
+https://www.airbnb.com/help/article/3345    # Community Disturbance Policy (parties/noise)
+# https://www.airbnb.com/help/article/3328  # SKIPPED: server keeps aborting the connection; covered by 3345 + 2894
+https://www.airbnb.com/help/article/3061    # Restrictions on security cameras and other devices
+https://www.airbnb.com/help/article/2914    # Informing guests about security devices
+https://www.airbnb.com/help/article/3290    # Neighborhood Support
+https://www.airbnb.com/help/article/3179    # When a neighbor reports an issue
+https://www.airbnb.com/help/article/1376    # Responsible hosting in the US
+
+# --- 10. Changing reservations & other ---
+https://www.airbnb.com/help/article/913     # Change the dates of your home reservation
+https://www.airbnb.com/help/article/1363    # Change a home reservation during a trip (extend)
+https://www.airbnb.com/help/article/50      # Modifying a home reservation as a host
+https://www.airbnb.com/help/article/1504    # Responding to a guest's trip change request
+https://www.airbnb.com/help/article/656     # My neighbor is an Airbnb host
